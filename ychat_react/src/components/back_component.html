@@ -1,0 +1,53 @@
+<!-- return (
+    <div
+      className="container-fluid bg-secondary"
+      style={{ height: "100vh", display: "grid", placeItems: "center" }}
+    >
+      <div className="card h-50 w-25 rounded d-flex justify-content-center p-2">
+        <form className="text-center">
+          <div class="form-group p-3">
+            <label className="h2 ">Room ID</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Room Id"
+              ref={roomIdRef}
+            />
+            <small id="emailHelp" class="form-text text-muted">
+              Ask your partner for room id if your joining
+            </small>
+          </div>
+          <div class="form-group p-3">
+            <label className="h2">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Name"
+              ref={nameRef}
+            />
+          </div>
+          <div class="form-group d-flex  justify-content-center">
+            <button
+              style={loading ? { pointerEvents: "none", opacity: "0.2" } : null}
+              class="btn btn-primary m-3 d-flex align-items-center"
+              onClick={(e) => {
+                joinHandler(e);
+              }}
+            >
+              {!loading && <span className="h2">JOIN</span>}
+              {loading && (
+                <span className="d-flex align-items-center h4">
+                  {" "}
+                  <span className="p-2">waiting for other to join </span>
+                  <div class="p-2 spinner-border" role="status"></div>
+                </span>
+              )}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  ); -->

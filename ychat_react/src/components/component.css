@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topbar{
+height:10%;
+background-color:#1212124d;
+}
+.chatArea{
+    height:80%;
+    overflow-y: auto;
+    max-height:80%;
+    background-color: #12121226;
+
+}
+
+.inputArea{
+    width: 100%;
+    height:10%;
+   
+}
+
+.message{
+background-color: rgba(128, 128, 128, 0.438);
+border-radius: 20px;
+}
